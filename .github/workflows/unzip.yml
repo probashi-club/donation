@@ -1,7 +1,11 @@
+
 name: Extract Donation ZIP
 
 on:
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   unzip:
@@ -13,12 +17,12 @@ jobs:
 
       - name: Extract ZIP
         run: |
-          unzip -o donation.zip -d extracted
+          unzip -o donation.zip -d .
 
       - name: Commit Extracted Files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add extracted
-          git commit -m "Extract donation project"
+          git add -A
+          git diff --cached --quiet || git commit -m "Extract donation ZIP"
           git push
