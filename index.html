@@ -1,0 +1,1782 @@
+<!doctype html>
+<html lang="bn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>আমাদের স্বপ্ন পূরণে একটু সহযোগিতা চাই</title>
+    <meta
+      name="description"
+      content="একটু সহযোগিতা হয়তো দুটি মানুষের দীর্ঘদিনের স্বপ্নকে বাঁচিয়ে রাখতে পারে। উচ্চশিক্ষিত দম্পতির সরকারি চাকরি প্রস্তুতি ও স্বনির্ভরতার পথে মানবিক সহায়তার আবেদন।"
+    />
+    <meta property="og:title" content="আমাদের স্বপ্ন পূরণে একটু সহযোগিতা চাই" />
+    <meta
+      property="og:description"
+      content="একটু সহযোগিতা হয়তো দুটি মানুষের দীর্ঘদিনের স্বপ্নকে বাঁচিয়ে রাখতে পারে। আপনার সামান্য সহযোগিতাই আমাদের জীবনের মোড় ঘুরিয়ে দিতে পারে।"
+    />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta
+      property="og:image"
+      content="./banner.png"
+    />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:alt" content="আমাদের স্বপ্ন পূরণে একটু সহযোগিতা চাই" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="আমাদের স্বপ্ন পূরণে একটু সহযোগিতা চাই" />
+    <meta
+      name="twitter:description"
+      content="একটু সহযোগিতা হয়তো দুটি মানুষের দীর্ঘদিনের স্বপ্নকে বাঁচিয়ে রাখতে পারে।"
+    />
+    <meta
+      name="twitter:image"
+      content="./banner.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500;600;700&family=JetBrains+Mono:wght@500;600&family=Noto+Sans+Bengali:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg-canvas: #fafaf8;
+        --bg-surface: #ffffff;
+        --bg-stone: #f3f1ec;
+        --ink-primary: #141917;
+        --ink-secondary: #4a524e;
+        --ink-body: #2f3633;
+        --ink-muted: #6b736f;
+        --border-hairline: #e6e4df;
+        --border-input: #d8d5ce;
+        --accent-emerald: #0f5c43;
+        --accent-emerald-hover: #0b4733;
+        --accent-crimson: #c81e32;
+        --bkash-pink: #e2136e;
+        --bkash-pink-hover: #c10f5d;
+        --nagad-orange: #d94e14;
+        --nagad-orange-hover: #b8400e;
+        --font-display: "Hind Siliguri", "Noto Sans Bengali", sans-serif;
+        --font-sans: "Noto Sans Bengali", "Hind Siliguri", sans-serif;
+        --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+        font-family: var(--font-sans);
+      }
+
+      body {
+        margin: 0;
+        background-color: var(--bg-canvas);
+        color: var(--ink-primary);
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      ::selection {
+        background-color: var(--accent-emerald);
+        color: #ffffff;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      .font-display {
+        font-family: var(--font-display);
+        margin: 0;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      button,
+      input,
+      textarea {
+        font-family: inherit;
+      }
+
+      button {
+        cursor: pointer;
+      }
+
+      :focus-visible {
+        outline: 2px solid var(--accent-emerald);
+        outline-offset: 2px;
+      }
+
+      .container {
+        width: 100%;
+        max-width: 1152px;
+        margin-inline: auto;
+        padding-inline: 20px;
+      }
+
+      @media (min-width: 640px) {
+        .container {
+          padding-inline: 32px;
+        }
+      }
+
+      .tabular-nums {
+        font-variant-numeric: tabular-nums;
+      }
+
+      .hidden {
+        display: none !important;
+      }
+
+      /* Top Bar (3-Zone Contract) */
+      .site-header {
+        position: sticky;
+        top: 0;
+        z-index: 40;
+        border-bottom: 1px solid var(--border-hairline);
+        background-color: rgba(250, 250, 248, 0.95);
+        backdrop-filter: blur(6px);
+      }
+
+      .header-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 32px;
+        height: 64px;
+      }
+
+      .brand-wordmark {
+        font-family: var(--font-display);
+        font-size: 1.25rem;
+        font-weight: 700;
+        letter-spacing: -0.015em;
+        color: var(--accent-emerald);
+        white-space: nowrap;
+        flex-shrink: 0;
+      }
+
+      .nav-links {
+        display: none;
+        align-items: center;
+        gap: 28px;
+        font-size: 0.875rem;
+        font-weight: 500;
+        color: var(--ink-secondary);
+      }
+
+      .nav-links a {
+        white-space: nowrap;
+        flex-shrink: 0;
+        transition: color 150ms ease;
+      }
+
+      .nav-links a:hover {
+        color: var(--ink-primary);
+      }
+
+      @media (min-width: 768px) {
+        .nav-links {
+          display: flex;
+        }
+      }
+
+      /* Buttons */
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        border-radius: 12px;
+        font-weight: 600;
+        white-space: nowrap;
+        flex-shrink: 0;
+        transition: background-color 150ms ease, color 150ms ease, border-color 150ms ease;
+        border: 1px solid transparent;
+      }
+
+      .btn-header {
+        min-height: 42px;
+        padding: 8px 16px;
+        font-size: 0.875rem;
+        background-color: var(--accent-emerald);
+        color: #ffffff;
+      }
+
+      .btn-header:hover {
+        background-color: var(--accent-emerald-hover);
+      }
+
+      .btn-primary {
+        min-height: 48px;
+        padding: 12px 24px;
+        font-size: 1rem;
+        background-color: var(--accent-emerald);
+        color: #ffffff;
+      }
+
+      .btn-primary:hover {
+        background-color: var(--accent-emerald-hover);
+      }
+
+      .btn-secondary {
+        min-height: 48px;
+        padding: 12px 20px;
+        font-size: 0.875rem;
+        background-color: #ffffff;
+        color: var(--ink-primary);
+        border-color: var(--border-input);
+      }
+
+      .btn-secondary:hover {
+        background-color: var(--bg-stone);
+      }
+
+      .btn-ghost {
+        min-height: 48px;
+        padding: 12px 16px;
+        font-size: 0.875rem;
+        font-weight: 500;
+        background-color: transparent;
+        color: var(--ink-secondary);
+      }
+
+      .btn-ghost:hover {
+        background-color: var(--bg-stone);
+        color: var(--ink-primary);
+      }
+
+      /* Hero Section */
+      .hero-section {
+        padding-block: 40px;
+      }
+
+      @media (min-width: 640px) {
+        .hero-section {
+          padding-block: 64px;
+        }
+      }
+
+      @media (min-width: 1024px) {
+        .hero-section {
+          padding-block: 80px;
+        }
+      }
+
+      .hero-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 32px;
+        align-items: stretch;
+      }
+
+      @media (min-width: 1024px) {
+        .hero-grid {
+          grid-template-columns: repeat(12, minmax(0, 1fr));
+          gap: 48px;
+        }
+        .hero-col-text {
+          grid-column: span 6 / span 6;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+        .hero-col-media {
+          grid-column: span 6 / span 6;
+        }
+      }
+
+      .kicker {
+        font-size: 0.75rem;
+        font-weight: 500;
+        color: var(--accent-emerald);
+      }
+
+      @media (min-width: 640px) {
+        .kicker {
+          font-size: 0.875rem;
+        }
+      }
+
+      .hero-title {
+        margin-top: 12px;
+        font-size: clamp(2rem, 4vw, 3.25rem);
+        font-weight: 700;
+        line-height: 1.18;
+        letter-spacing: -0.015em;
+        color: var(--ink-primary);
+        text-wrap: balance;
+      }
+
+      .hero-heart {
+        display: inline-block;
+        width: 28px;
+        height: 28px;
+        vertical-align: -4px;
+        margin-left: 4px;
+      }
+
+      @media (min-width: 640px) {
+        .hero-heart {
+          width: 34px;
+          height: 34px;
+        }
+      }
+
+      .hero-subtitle {
+        margin-top: 16px;
+        max-width: 576px;
+        font-size: 1rem;
+        line-height: 1.7;
+        color: var(--ink-secondary);
+      }
+
+      @media (min-width: 640px) {
+        .hero-subtitle {
+          font-size: 1.125rem;
+        }
+      }
+
+      .hero-actions {
+        margin-top: 28px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .hero-media-frame {
+        height: 100%;
+        overflow: hidden;
+        border-radius: 16px;
+        border: 1px solid var(--border-hairline);
+        background-color: #ffffff;
+      }
+
+      .hero-media-frame img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .img-fallback {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        aspect-ratio: 3 / 2;
+        padding: 32px;
+        text-align: center;
+        background: linear-gradient(135deg, #eef7f2 0%, #f3f1ec 100%);
+      }
+
+      /* Progress Card */
+      .progress-card {
+        margin-top: 40px;
+        border-radius: 16px;
+        border: 1px solid var(--border-hairline);
+        background-color: #ffffff;
+        padding: 24px;
+      }
+
+      @media (min-width: 640px) {
+        .progress-card {
+          padding: 32px;
+        }
+      }
+
+      .progress-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 16px;
+      }
+
+      @media (min-width: 640px) {
+        .progress-header {
+          flex-direction: row;
+          align-items: flex-end;
+        }
+      }
+
+      .progress-title {
+        margin-top: 4px;
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: var(--ink-primary);
+      }
+
+      @media (min-width: 640px) {
+        .progress-title {
+          font-size: 1.5rem;
+        }
+      }
+
+      .progress-percent-wrap {
+        display: flex;
+        align-items: baseline;
+        gap: 8px;
+      }
+
+      .progress-percent-num {
+        font-family: var(--font-mono);
+        font-size: 1.875rem;
+        font-weight: 700;
+        color: var(--accent-emerald);
+      }
+
+      @media (min-width: 640px) {
+        .progress-percent-num {
+          font-size: 2.25rem;
+        }
+      }
+
+      .progress-percent-label {
+        font-size: 0.875rem;
+        font-weight: 500;
+        color: var(--ink-secondary);
+      }
+
+      .progress-track {
+        margin-top: 20px;
+        height: 14px;
+        width: 100%;
+        overflow: hidden;
+        border-radius: 9999px;
+        background-color: #eceae4;
+      }
+
+      .progress-fill {
+        height: 100%;
+        width: 100%;
+        transform-origin: left center;
+        border-radius: 9999px;
+        background-color: var(--accent-emerald);
+        transition: transform 500ms cubic-bezier(0.16, 1, 0.3, 1);
+      }
+
+      .progress-ticks {
+        margin-top: 8px;
+        display: flex;
+        justify-content: space-between;
+        font-family: var(--font-mono);
+        font-size: 0.75rem;
+        color: var(--ink-muted);
+      }
+
+      .kpi-strip {
+        margin-top: 32px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 24px;
+        border-top: 1px solid var(--border-hairline);
+        padding-top: 24px;
+      }
+
+      @media (min-width: 640px) {
+        .kpi-strip {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+
+      @media (min-width: 1024px) {
+        .kpi-strip {
+          grid-template-columns: repeat(4, minmax(0, 1fr));
+        }
+      }
+
+      .kpi-label {
+        font-size: 0.75rem;
+        font-weight: 500;
+        color: var(--ink-muted);
+      }
+
+      .kpi-value {
+        margin-top: 4px;
+        font-size: 0.875rem;
+        font-weight: 600;
+        color: var(--ink-primary);
+      }
+
+      /* Story Section */
+      .story-section {
+        border-top: 1px solid var(--border-hairline);
+        background-color: #ffffff;
+        padding-block: 64px;
+      }
+
+      @media (min-width: 768px) {
+        .story-section {
+          padding-block: 96px;
+        }
+      }
+
+      .story-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+        align-items: start;
+      }
+
+      @media (min-width: 1024px) {
+        .story-grid {
+          grid-template-columns: repeat(12, minmax(0, 1fr));
+          gap: 56px;
+        }
+        .story-main {
+          grid-column: span 7 / span 7;
+        }
+        .story-aside {
+          grid-column: span 5 / span 5;
+        }
+      }
+
+      .section-heading {
+        margin-top: 8px;
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 1.3;
+        letter-spacing: -0.015em;
+        color: var(--ink-primary);
+        text-wrap: balance;
+      }
+
+      @media (min-width: 640px) {
+        .section-heading {
+          font-size: 1.875rem;
+        }
+      }
+
+      .prose-stack {
+        margin-top: 28px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 1rem;
+        line-height: 1.85;
+        color: var(--ink-body);
+      }
+
+      @media (min-width: 640px) {
+        .prose-stack {
+          font-size: 1.0625rem;
+        }
+      }
+
+      .story-aside {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+      }
+
+      .desk-figure {
+        margin: 0;
+        overflow: hidden;
+        border-radius: 16px;
+        border: 1px solid var(--border-hairline);
+        background-color: var(--bg-canvas);
+      }
+
+      .desk-figure img {
+        display: block;
+        width: 100%;
+        aspect-ratio: 4 / 3;
+        object-fit: cover;
+      }
+
+      .desk-caption {
+        border-top: 1px solid var(--border-hairline);
+        padding: 12px 16px;
+        font-size: 0.75rem;
+        color: var(--ink-secondary);
+      }
+
+      .privacy-box {
+        border-radius: 16px;
+        border: 1px solid var(--border-hairline);
+        background-color: var(--bg-stone);
+        padding: 24px;
+      }
+
+      @media (min-width: 640px) {
+        .privacy-box {
+          padding: 28px;
+        }
+      }
+
+      .privacy-header {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: var(--accent-emerald);
+      }
+
+      .privacy-title {
+        font-size: 1.125rem;
+        font-weight: 700;
+        color: var(--ink-primary);
+      }
+
+      @media (min-width: 640px) {
+        .privacy-title {
+          font-size: 1.25rem;
+        }
+      }
+
+      .privacy-prose {
+        margin-top: 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        font-size: 0.9375rem;
+        line-height: 1.8;
+        color: var(--ink-body);
+      }
+
+      .privacy-footer-note {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        border-top: 1px solid #dddad2;
+        padding-top: 16px;
+        font-size: 0.75rem;
+        font-weight: 500;
+        color: var(--accent-emerald);
+      }
+
+      /* Closing Banner */
+      .closing-banner {
+        position: relative;
+        overflow: hidden;
+        border-top: 1px solid var(--border-hairline);
+        background-color: #141917;
+        color: #ffffff;
+      }
+
+      .closing-bg-img {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.4;
+      }
+
+      .closing-scrim {
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          90deg,
+          rgba(11, 28, 22, 0.9) 0%,
+          rgba(11, 28, 22, 0.8) 50%,
+          rgba(11, 28, 22, 0.7) 100%
+        );
+      }
+
+      .closing-content {
+        position: relative;
+        max-width: 896px;
+        margin-inline: auto;
+        padding: 64px 20px;
+        text-align: center;
+      }
+
+      @media (min-width: 640px) {
+        .closing-content {
+          padding: 96px 32px;
+        }
+      }
+
+      .closing-title {
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 1.35;
+        color: #ffffff;
+        text-wrap: balance;
+      }
+
+      @media (min-width: 640px) {
+        .closing-title {
+          font-size: 2.25rem;
+        }
+      }
+
+      .closing-sub {
+        margin: 16px auto 0;
+        max-width: 576px;
+        font-size: 0.875rem;
+        line-height: 1.7;
+        color: #d8e2dd;
+      }
+
+      @media (min-width: 640px) {
+        .closing-sub {
+          font-size: 1rem;
+        }
+      }
+
+      .closing-actions {
+        margin-top: 32px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+      }
+
+      .btn-white {
+        min-height: 48px;
+        padding: 12px 28px;
+        font-size: 1rem;
+        font-weight: 700;
+        background-color: #ffffff;
+        color: var(--accent-emerald);
+      }
+
+      .btn-white:hover {
+        background-color: var(--bg-stone);
+      }
+
+      .btn-outline-light {
+        min-height: 48px;
+        padding: 12px 24px;
+        font-size: 0.875rem;
+        font-weight: 600;
+        background-color: rgba(255, 255, 255, 0.1);
+        color: #ffffff;
+        border-color: rgba(255, 255, 255, 0.3);
+      }
+
+      .btn-outline-light:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+      }
+
+      /* FAQ Section */
+      .faq-section {
+        border-top: 1px solid var(--border-hairline);
+        background-color: #ffffff;
+        padding-block: 64px;
+      }
+
+      @media (min-width: 768px) {
+        .faq-section {
+          padding-block: 96px;
+        }
+      }
+
+      .faq-container {
+        max-width: 896px;
+      }
+
+      .faq-intro {
+        max-width: 672px;
+        margin-bottom: 40px;
+      }
+
+      .faq-desc {
+        margin-top: 12px;
+        font-size: 1rem;
+        line-height: 1.7;
+        color: var(--ink-secondary);
+      }
+
+      .faq-list {
+        border-top: 1px solid var(--border-hairline);
+        border-bottom: 1px solid var(--border-hairline);
+      }
+
+      .faq-item {
+        border-bottom: 1px solid var(--border-hairline);
+      }
+
+      .faq-item:last-child {
+        border-bottom: 0;
+      }
+
+      .faq-trigger {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        width: 100%;
+        min-height: 52px;
+        padding: 18px 0;
+        border: 0;
+        background: transparent;
+        text-align: left;
+        color: var(--ink-primary);
+        transition: color 150ms ease;
+      }
+
+      .faq-trigger:hover {
+        color: var(--accent-emerald);
+      }
+
+      .faq-question {
+        font-family: var(--font-display);
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 1.45;
+      }
+
+      @media (min-width: 640px) {
+        .faq-question {
+          font-size: 1.125rem;
+        }
+      }
+
+      .faq-icon-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        border: 1px solid var(--border-hairline);
+        background-color: var(--bg-canvas);
+        color: var(--ink-primary);
+      }
+
+      .faq-answer {
+        padding: 0 32px 20px 0;
+        font-size: 0.9375rem;
+        line-height: 1.8;
+        color: var(--ink-secondary);
+      }
+
+      @media (min-width: 640px) {
+        .faq-answer {
+          font-size: 1rem;
+        }
+      }
+
+      /* Footer */
+      .site-footer {
+        border-top: 1px solid var(--border-hairline);
+        background-color: #ffffff;
+        padding-block: 40px;
+      }
+
+      .footer-inner {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 24px;
+      }
+
+      @media (min-width: 640px) {
+        .footer-inner {
+          flex-direction: row;
+          align-items: center;
+        }
+      }
+
+      .footer-sub {
+        margin-top: 4px;
+        font-size: 0.75rem;
+        color: var(--ink-secondary);
+      }
+
+      /* Modal */
+      .modal-backdrop {
+        position: fixed;
+        inset: 0;
+        z-index: 50;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 16px;
+        background-color: rgba(0, 0, 0, 0.6);
+        backdrop-filter: blur(2px);
+      }
+
+      .modal-dialog {
+        position: relative;
+        max-height: 92vh;
+        width: 100%;
+        max-width: 576px;
+        overflow-y: auto;
+        border-radius: 16px;
+        border: 1px solid var(--border-hairline);
+        background-color: #ffffff;
+        padding: 20px;
+      }
+
+      @media (min-width: 640px) {
+        .modal-dialog {
+          padding: 32px;
+        }
+      }
+
+      .modal-header {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 16px;
+        border-bottom: 1px solid var(--border-hairline);
+        padding-bottom: 16px;
+      }
+
+      .modal-title {
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: var(--ink-primary);
+      }
+
+      @media (min-width: 640px) {
+        .modal-title {
+          font-size: 1.5rem;
+        }
+      }
+
+      .modal-sub {
+        margin-top: 4px;
+        font-size: 0.875rem;
+        color: var(--ink-secondary);
+      }
+
+      .modal-close {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        flex-shrink: 0;
+        border-radius: 12px;
+        border: 1px solid var(--border-hairline);
+        background-color: var(--bg-canvas);
+        color: var(--ink-primary);
+      }
+
+      .modal-close:hover {
+        background-color: #f0efea;
+      }
+
+      .payment-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 12px;
+        margin-top: 20px;
+      }
+
+      @media (min-width: 640px) {
+        .payment-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+
+      .pay-card-bkash {
+        border-radius: 12px;
+        border: 1px solid #f2c6d9;
+        background-color: #fff8fb;
+        padding: 16px;
+      }
+
+      .pay-card-nagad {
+        border-radius: 12px;
+        border: 1px solid #fad6c3;
+        background-color: #fff9f5;
+        padding: 16px;
+      }
+
+      .pay-card-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+      }
+
+      .pay-number-row {
+        margin-top: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+        border-radius: 8px;
+        padding: 8px 12px;
+        background-color: #ffffff;
+      }
+
+      .pay-number-row.bkash {
+        border: 1px solid #f2d5e2;
+      }
+
+      .pay-number-row.nagad {
+        border: 1px solid #f5ddd0;
+      }
+
+      .pay-number {
+        font-family: var(--font-mono);
+        font-size: 1rem;
+        font-weight: 600;
+        letter-spacing: -0.02em;
+        color: var(--ink-primary);
+      }
+
+      .btn-copy-bkash,
+      .btn-copy-nagad {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        min-height: 34px;
+        padding: 4px 10px;
+        border-radius: 8px;
+        border: 0;
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: #ffffff;
+        white-space: nowrap;
+        flex-shrink: 0;
+      }
+
+      .btn-copy-bkash {
+        background-color: var(--bkash-pink);
+      }
+      .btn-copy-bkash:hover {
+        background-color: var(--bkash-pink-hover);
+      }
+
+      .btn-copy-nagad {
+        background-color: var(--nagad-orange);
+      }
+      .btn-copy-nagad:hover {
+        background-color: var(--nagad-orange-hover);
+      }
+
+      .thank-you-box {
+        margin-top: 20px;
+        border-radius: 12px;
+        border: 1px solid #d5e5dc;
+        background-color: #f3f9f6;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .thank-you-title {
+        margin-top: 10px;
+        font-family: var(--font-display);
+        font-size: 1.125rem;
+        font-weight: 700;
+        color: var(--ink-primary);
+      }
+
+      .thank-you-text {
+        margin-top: 8px;
+        font-size: 0.875rem;
+        line-height: 1.75;
+        color: var(--ink-body);
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        html {
+          scroll-behavior: auto;
+        }
+        *,
+        *::before,
+        *::after {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          transition-duration: 0.01ms !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 3-Zone Top Bar -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#" class="brand-wordmark">স্বপ্নযাত্রা</a>
+
+        <nav class="nav-links" aria-label="প্রধান মেনু">
+          <a href="#story">আবেদন</a>
+          <a href="#privacy">স্বচ্ছতা</a>
+          <a href="#faq">জিজ্ঞাসা</a>
+        </nav>
+
+        <div>
+          <button
+            type="button"
+            class="btn btn-header"
+            data-open-donation
+          >
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+            </svg>
+            <span>সহযোগিতা করুন</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="container">
+          <div class="hero-grid">
+            <div class="hero-col-text">
+              <p class="kicker">মানবিক ও শিক্ষা সহায়তা আবেদন · পরিচয় গোপনকৃত</p>
+
+              <h1 class="hero-title">
+                আমাদের স্বপ্ন পূরণে একটু সহযোগিতা চাই
+                <svg class="hero-heart" viewBox="0 0 24 24" fill="#C81E32" stroke="#C81E32" stroke-width="1.5" aria-label="ভালোবাসার প্রতীক">
+                  <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+                </svg>
+              </h1>
+
+              <p class="hero-subtitle">
+                একটু সহযোগিতা হয়তো দুটি মানুষের দীর্ঘদিনের স্বপ্নকে বাঁচিয়ে রাখতে পারে।
+              </p>
+
+              <div class="hero-actions">
+                <button type="button" class="btn btn-primary" data-open-donation>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+                  </svg>
+                  <span>ডোনেশন পাঠান</span>
+                </button>
+
+                <a href="#story" class="btn btn-secondary">
+                  <span>বিস্তারিত পড়ুন</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M12 5v14" />
+                    <path d="m19 12-7 7-7-7" />
+                  </svg>
+                </a>
+
+                <button type="button" class="btn btn-ghost" data-share-link>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="18" cy="5" r="3" />
+                    <circle cx="6" cy="12" r="3" />
+                    <circle cx="18" cy="19" r="3" />
+                    <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" />
+                    <line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
+                  </svg>
+                  <span data-share-label>শেয়ার করুন</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="hero-col-media">
+              <div class="hero-media-frame">
+                <img
+                  id="hero-img"
+                  src="./banner.png"
+                  alt="প্রবাসী ভাইদের ভালোবাসায় এগিয়ে যাক আমার স্বপ্ন — পাশে থাকুন, স্বপ্ন পূরণে সহযোগিতা করুন"
+                  referrerpolicy="no-referrer"
+                />
+                <div id="hero-fallback" class="img-fallback hidden">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0F5C43" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+                    <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+                  </svg>
+                  <p style="margin-top: 12px; font-family: var(--font-display); font-size: 1.125rem; font-weight: 700;">
+                    আমাদের স্বপ্ন পূরণে একটু সহযোগিতা চাই
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Percentage-Only Progress Tracker (Zero Money Amounts) -->
+          <div class="progress-card">
+            <div class="progress-header">
+              <div>
+                <p class="kicker">সহযোগিতা অগ্রগতি (টার্গেটের শতাংশ)</p>
+                <h2 id="progress-status-note" class="progress-title">
+                  প্রস্তুতি ও পরীক্ষার ব্যয় নির্বাহে সহযোগিতা গ্রহণ চলমান
+                </h2>
+              </div>
+              <div class="progress-percent-wrap">
+                <span id="progress-percent-text" class="progress-percent-num tabular-nums">১৫%</span>
+                <span class="progress-percent-label">সম্পন্ন হয়েছে</span>
+              </div>
+            </div>
+
+            <div
+              id="progress-bar-role"
+              class="progress-track"
+              role="progressbar"
+              aria-valuenow="15"
+              aria-valuemin="0"
+              aria-valuemax="100"
+              aria-label="ডোনেশন লক্ষ্যমাত্রার শতাংশ অগ্রগতি"
+            >
+              <div id="progress-fill" class="progress-fill" style="transform: scaleX(0.15)"></div>
+            </div>
+
+            <div class="progress-ticks tabular-nums">
+              <span>০%</span>
+              <span>২৫%</span>
+              <span>৫০%</span>
+              <span>৭৫%</span>
+              <span>১০০%</span>
+            </div>
+
+            <div class="kpi-strip">
+              <div>
+                <p class="kpi-label">শিক্ষাগত যোগ্যতা</p>
+                <p class="kpi-value">দুজনেই পাবলিক বিশ্ববিদ্যালয় থেকে মাস্টার্স সম্পন্ন</p>
+              </div>
+              <div>
+                <p class="kpi-label">মূল লক্ষ্য</p>
+                <p class="kpi-value">বিসিএস ও সরকারি চাকরির মাধ্যমে স্বাবলম্বী হওয়া</p>
+              </div>
+              <div>
+                <p class="kpi-label">সহযোগিতার ধরন</p>
+                <p class="kpi-value">৫০, ১০০, ২০০ বা ৫০০ টাকা—সাধ্যমতো যেকোনো সহায়তা</p>
+              </div>
+              <div>
+                <p class="kpi-label">সত্যতা যাচাই</p>
+                <p class="kpi-value">ব্যক্তিগতভাবে শিক্ষাগত সনদ ও হিসাব প্রদানে প্রস্তুত</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Main Appeal & Story Section -->
+      <section id="story" class="story-section">
+        <div class="container">
+          <div class="story-grid">
+            <div class="story-main">
+              <p class="kicker" style="font-size: 0.875rem;">আমাদের গল্প ও বাস্তবতা</p>
+              <h2 class="section-heading">
+                একটু সহযোগিতা হয়তো দুটি মানুষের দীর্ঘদিনের স্বপ্নকে বাঁচিয়ে রাখতে পারে।
+              </h2>
+
+              <div class="prose-stack">
+                <p>
+                  আমি একজন বিবাহিত যুবক। বাংলাদেশের একটি পাবলিক বিশ্ববিদ্যালয় থেকে মাস্টার্স সম্পন্ন করেছি। আমার স্ত্রীও মাস্টার্স সম্পন্ন করেছেন। আমরা দুজনেই বিসিএসসহ বিভিন্ন সরকারি চাকরির প্রতিযোগিতামূলক পরীক্ষার প্রস্তুতি নিচ্ছি।
+                </p>
+                <p>
+                  আমাদের স্বপ্ন নিজেদের যোগ্যতায় একটি সম্মানজনক চাকরি অর্জন করা, স্বাবলম্বী হওয়া এবং বাবা-মায়ের পাশে দাঁড়ানো।
+                </p>
+                <p>
+                  কিন্তু আমাদের বর্তমান আর্থিক পরিস্থিতি এই স্বপ্নের পথে বড় বাধা হয়ে দাঁড়িয়েছে। আমরা টিউশনি করে মাসে প্রায় কিছু টাকা আয় করি। এই সামান্য অর্থ দিয়ে দুজনের পড়াশোনা, সংসার ও চাকরির প্রস্তুতির ব্যয় বহন করা অত্যন্ত কঠিন।
+                </p>
+                <p>
+                  প্রয়োজনীয় বই, কোচিং, লাইব্রেরি, চাকরির আবেদন ফি এবং বিভিন্ন শহরে নিয়োগ পরীক্ষায় অংশগ্রহণের যাতায়াত খরচ মেটাতে আমরা হিমশিম খাচ্ছি।
+                </p>
+                <p>
+                  আমরা কাজ করতে অনিচ্ছুক নই, বিলাসী জীবনও চাই না। আমরা শুধু নিজেদের যোগ্যতায় প্রতিষ্ঠিত হওয়ার জন্য প্রস্তুতিটুকু চালিয়ে যাওয়ার সুযোগ চাই।
+                </p>
+                <p>
+                  আপনার সামর্থ্য অনুযায়ী ৫০, ১০০, ২০০ কিংবা ৫০০ টাকার ছোট্ট অনুদানও আমাদের জন্য অনেক বড় সহায়তা হতে পারে। সম্পূর্ণ অর্থ নয়, আংশিক সহযোগিতাও আমাদের এগিয়ে যাওয়ার সাহস জোগাবে।
+                </p>
+              </div>
+
+              <div style="margin-top: 32px;">
+                <button type="button" class="btn btn-primary" data-open-donation>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+                  </svg>
+                  <span>এখনই সহযোগিতা করুন</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="story-aside">
+              <figure class="desk-figure">
+                <img
+                  id="desk-img"
+                  src="./study-desk.jpg"
+                  alt="বিসিএস ও সরকারি চাকরির প্রস্তুতির পড়ার টেবিল ও বই"
+                  referrerpolicy="no-referrer"
+                />
+                <div id="desk-fallback" class="img-fallback hidden" style="aspect-ratio: 4 / 3;">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0F5C43" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+                    <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+                  </svg>
+                </div>
+                <figcaption class="desk-caption">
+                  পরিশ্রম ও প্রস্তুতি চালিয়ে যাওয়ার প্রচেষ্টা — বই, নোটস ও সম্মানজনক ভবিষ্যতের স্বপ্ন
+                </figcaption>
+              </figure>
+
+              <div id="privacy" class="privacy-box">
+                <div class="privacy-header">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect width="18" height="11" x="3" y="11" rx="2" ry="2" />
+                    <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+                  </svg>
+                  <h3 class="privacy-title">আমাদের পরিচয় গোপন রাখার অনুরোধ</h3>
+                </div>
+
+                <div class="privacy-prose">
+                  <p>
+                    আমাদেরও একটি পরিবার, সমাজ ও সামাজিক সম্মান রয়েছে। আমরা চাই না নিজেদের ব্যক্তিগত ও পারিবারিক পরিচয় প্রকাশ করে সেই সম্মানকে বিব্রতকর পরিস্থিতিতে ফেলতে। তাই আপাতত সম্পূর্ণ পরিচয় প্রকাশ না করেই আপনাদের কাছে সহযোগিতার আবেদন জানাচ্ছি।
+                  </p>
+                  <p>
+                    তবে আমাদের আবেদন নিয়ে কারও মনে কোনো প্রশ্ন বা সংশয় থাকলে, বিশ্বাসযোগ্যতা ও সত্যতা যাচাইয়ের জন্য প্রয়োজনীয় শিক্ষাগত সনদ, পারিবারিক তথ্য এবং ব্যয়ের হিসাব ব্যক্তিগতভাবে সরবরাহ করতে আমরা সম্পূর্ণ প্রস্তুত। আপনাদের বিশ্বাস অর্জন আমাদের কাছে অত্যন্ত গুরুত্বপূর্ণ।
+                  </p>
+                  <p>
+                    আমরা আজ সহযোগিতা চাইছি, যেন আগামীকাল নিজেদের পরিশ্রমে স্বাবলম্বী হয়ে অন্যের পাশে দাঁড়াতে পারি এবং একদিন অন্যের স্বপ্ন পূরণের সারথি হতে পারি।
+                  </p>
+                </div>
+
+                <div class="privacy-footer-note">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+                    <path d="m9 12 2 2 4-4" />
+                  </svg>
+                  <span>বিশ্বস্ততা ও সত্যতা যাচাইয়ের জন্য ব্যক্তিগতভাবে সনদ প্রদানযোগ্য</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Closing Appeal Banner -->
+      <section class="closing-banner">
+        <img
+          id="campus-img"
+          class="closing-bg-img"
+          src="./campus-dawn.jpg"
+          alt="বাংলাদেশের পাবলিক বিশ্ববিদ্যালয়ের ভোরের আলো ও আশার প্রতীক"
+          referrerpolicy="no-referrer"
+        />
+        <div class="closing-scrim" aria-hidden="true"></div>
+
+        <div class="closing-content">
+          <h2 class="closing-title">
+            আপনার একটু সহযোগিতা হয়তো আমাদের জীবনের মোড় ঘুরিয়ে দিতে পারে। দোয়া করবেন, পাশে থাকবেন।
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="#E13B4F" stroke="#E13B4F" stroke-width="1.5" style="display:inline-block; vertical-align:-4px; margin-left:4px;" aria-hidden="true">
+              <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+            </svg>
+          </h2>
+          <p class="closing-sub">
+            আজ আপনার সামান্য সহানুভূতি হয়তো দুটি মানুষের সারা জীবনের স্বনির্ভরতার ভিত্তি গড়ে দেবে।
+          </p>
+          <div class="closing-actions">
+            <button type="button" class="btn btn-white" data-open-donation>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="#C81E32" stroke="#C81E32" stroke-width="1.5" aria-hidden="true">
+                <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+              </svg>
+              <span>সহযোগিতা করুন (বিকাশ / নগদ)</span>
+            </button>
+            <button type="button" class="btn btn-outline-light" data-share-link>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="18" cy="5" r="3" />
+                <circle cx="6" cy="12" r="3" />
+                <circle cx="18" cy="19" r="3" />
+                <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" />
+                <line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
+              </svg>
+              <span data-share-label>লিংকটি শেয়ার করুন</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ Section (All 10 Questions) -->
+      <section id="faq" class="faq-section">
+        <div class="container faq-container">
+          <div class="faq-intro">
+            <p class="kicker" style="font-size: 0.875rem;">স্বচ্ছতা ও সাধারণ জিজ্ঞাসা</p>
+            <h2 class="section-heading">সচরাচর জিজ্ঞাসিত প্রশ্ন (FAQ)</h2>
+            <p class="faq-desc">
+              আমাদের আবেদন, ব্যয়ের খাত এবং গোপনীয়তা নিয়ে আপনার মনে থাকা সম্ভাব্য সকল প্রশ্নের স্পষ্ট উত্তর নিচে দেওয়া হলো।
+            </p>
+          </div>
+
+          <div id="faq-list" class="faq-list"></div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Quiet Footer -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <span class="brand-wordmark" style="font-size: 1.125rem;">স্বপ্নযাত্রা</span>
+          <p class="footer-sub">
+            ব্যক্তিগত গোপনীয়তা বজায় রেখে শিক্ষা ও স্বনির্ভরতার পথে মানবিক সহায়তা আবেদন।
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Donation Modal -->
+    <div
+      id="donation-modal"
+      class="modal-backdrop hidden"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="donation-modal-title"
+    >
+      <div class="modal-dialog">
+        <div class="modal-header">
+          <div>
+            <h2 id="donation-modal-title" class="modal-title">
+              সহযোগিতা পাঠানোর মাধ্যম
+            </h2>
+            <p class="modal-sub">
+              নিচের বিকাশ বা নগদ নাম্বারে আপনার সামর্থ্য অনুযায়ী সহযোগিতা পাঠাতে পারেন।
+            </p>
+          </div>
+          <button
+            type="button"
+            id="donation-modal-close"
+            class="modal-close"
+            aria-label="পপআপ বন্ধ করুন"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M18 6 6 18" />
+              <path d="m6 6 12 12" />
+            </svg>
+          </button>
+        </div>
+
+        <!-- Form View -->
+        <div id="donation-form-view">
+          <div class="payment-grid">
+            <!-- bKash -->
+            <div class="pay-card-bkash">
+              <div class="pay-card-top">
+                <div style="display:inline-flex; align-items:center; gap:8px;">
+                  <svg viewBox="0 0 40 40" fill="none" width="32" height="32" aria-hidden="true">
+                    <rect width="40" height="40" rx="10" fill="#E2136E" />
+                    <path d="M11 12.5L22.2 10L18.6 19.8L11 12.5Z" fill="#FFFFFF" />
+                    <path d="M22.2 10L29.5 18.2L21.4 20.6L18.6 19.8L22.2 10Z" fill="#FFD1E6" />
+                    <path d="M18.6 19.8L29.5 18.2L22.8 29.8L16.5 25.5L18.6 19.8Z" fill="#FFFFFF" />
+                    <path d="M16.5 25.5L11.2 28.5L14.8 21.8L18.6 19.8L16.5 25.5Z" fill="#F9B4D2" />
+                  </svg>
+                  <div style="display:flex; flex-direction:column; line-height:1;">
+                    <span style="font-family:var(--font-display); font-size:1rem; font-weight:700; color:#E2136E;">বিকাশ</span>
+                    <span style="font-size:11px; font-weight:600; color:#4A524E;">bKash</span>
+                  </div>
+                </div>
+                <span id="bkash-label-text" style="font-size:0.75rem; font-weight:500; color:#8C1D4F;">পার্সোনাল (Send Money)</span>
+              </div>
+              <div class="pay-number-row bkash">
+                <span id="bkash-number-text" class="pay-number tabular-nums">01700-000000</span>
+                <button type="button" id="copy-bkash-btn" class="btn-copy-bkash">কপি</button>
+              </div>
+            </div>
+
+            <!-- Nagad -->
+            <div class="pay-card-nagad">
+              <div class="pay-card-top">
+                <div style="display:inline-flex; align-items:center; gap:8px;">
+                  <svg viewBox="0 0 40 40" fill="none" width="32" height="32" aria-hidden="true">
+                    <rect width="40" height="40" rx="10" fill="#F26522" />
+                    <circle cx="20" cy="20" r="11" fill="#FFFFFF" />
+                    <path d="M15.2 25.2V14.8H18.1L22.7 21.2V14.8H25.2V25.2H22.4L17.7 18.7V25.2H15.2Z" fill="#ED1C24" />
+                  </svg>
+                  <div style="display:flex; flex-direction:column; line-height:1;">
+                    <span style="font-family:var(--font-display); font-size:1rem; font-weight:700; color:#D94E14;">নগদ</span>
+                    <span style="font-size:11px; font-weight:600; color:#4A524E;">Nagad</span>
+                  </div>
+                </div>
+                <span id="nagad-label-text" style="font-size:0.75rem; font-weight:500; color:#9A380B;">পার্সোনাল (Send Money)</span>
+              </div>
+              <div class="pay-number-row nagad">
+                <span id="nagad-number-text" class="pay-number tabular-nums">01700-000000</span>
+                <button type="button" id="copy-nagad-btn" class="btn-copy-nagad">কপি</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="thank-you-box">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="#C81E32" stroke="#C81E32" stroke-width="1.5" style="margin-inline:auto; display:block;" aria-hidden="true">
+              <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z" />
+            </svg>
+            <h3 class="thank-you-title">অসংখ্য ধন্যবাদ ও কৃতজ্ঞতা</h3>
+            <p class="thank-you-text">
+              আপনার সামর্থ্য অনুযায়ী ৫০, ১০০, ২০০ কিংবা ৫০০ টাকা—যেকোনো পরিমাণ সহযোগিতাই আমাদের জন্য অনেক বড় শক্তি। আমাদের এই কঠিন সময়ে পাশে দাঁড়ানোর জন্য আন্তরিক ধন্যবাদ। আমাদের জন্য দোয়া করবেন।
+            </p>
+          </div>
+
+          <div style="margin-top: 20px; text-align: center;">
+            <button type="button" id="donation-done-btn" class="btn btn-primary" style="width: 100%; min-height: 46px;">
+              ধন্যবাদ, বন্ধ করুন
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      (function () {
+        // ============================================================
+        // শুধুমাত্র পেজের মালিক (আপনি) এখানে মানগুলো পরিবর্তন করে
+        // টার্গেটের কত % পূর্ণ হয়েছে ও আপনার বিকাশ/নগদ নাম্বার আপডেট করতে পারবেন।
+        // (কোনো টাকার অঙ্ক কোথাও দেখানো হবে না, কেবল শতাংশ দেখাবে)
+        // ============================================================
+        var CAMPAIGN_SETTINGS = {
+          progressPercent: 15,
+          bkashNumber: '01700-000000',
+          nagadNumber: '01700-000000',
+          bkashLabel: 'পার্সোনাল (Send Money)',
+          nagadLabel: 'পার্সোনাল (Send Money)',
+          statusNote: 'প্রস্তুতি ও পরীক্ষার ব্যয় নির্বাহে সহযোগিতা গ্রহণ চলমান',
+        };
+
+        var FAQ_ITEMS = [
+          {
+            id: 1,
+            question: '১. উচ্চশিক্ষিত হয়েও আপনারা কেন আর্থিক সহযোগিতা চাইছেন?',
+            answer:
+              'উচ্চশিক্ষা আমাদের যোগ্যতা তৈরি করেছে, কিন্তু আর্থিক নিশ্চয়তা দেয়নি। বর্তমানে আমরা দুজনেই চাকরির প্রস্তুতি নিচ্ছি। পাশাপাশি পরিবারের আর্থিক দায়িত্বও রয়েছে। এই কঠিন সময়টুকু পার করে নিজেদের প্রতিষ্ঠিত করার জন্যই সহযোগিতা চাইছি।',
+          },
+          {
+            id: 2,
+            question: '২. নিজেরা কোনো কাজ করে উপার্জন করছেন না কেন?',
+            answer:
+              'আমরা কাজের মর্যাদায় বিশ্বাস করি। আমি টিউশনি করে মাসে কিছু টাকা আয় করি। তবে এই আয় দিয়ে দুজনের পড়াশোনা, সংসার ও পারিবারিক দায়িত্ব সামলানো সম্ভব হচ্ছে না। আমরা উপার্জন করতে চাই, পাশাপাশি দীর্ঘমেয়াদে প্রতিষ্ঠিত হওয়ার প্রস্তুতিটুকুও চালিয়ে যেতে চাই।',
+          },
+          {
+            id: 3,
+            question: '৩. প্রবাসীরা তো পড়াশোনা না করেও পরিবারের দায়িত্ব নিচ্ছেন। আপনারা পারছেন না কেন?',
+            answer:
+              'প্রবাসী ভাইদের ত্যাগ ও সংগ্রামের প্রতি আমাদের গভীর শ্রদ্ধা রয়েছে। আপনারা প্রতিকূল পরিবেশে পরিবারকে ভালো রাখার জন্য অসাধারণ পরিশ্রম করছেন। আমরাও নিজেদের যোগ্যতা ও পরিশ্রম দিয়ে পরিবারের দায়িত্ব নিতে চাই। আজ শুধু সেই অবস্থানে পৌঁছানোর জন্য সাময়িক সহযোগিতা চাইছি।',
+          },
+          {
+            id: 4,
+            question: '৪. আপনাদের অনুদানের অর্থ কোথায় ব্যয় হবে?',
+            answer:
+              'অনুদান দুজনের চাকরির প্রস্তুতি, প্রয়োজনীয় বই, কোচিং, লাইব্রেরি, চাকরির আবেদন ফি, বিভিন্ন শহরে পরীক্ষার যাতায়াত, বাসাভাড়া, খাবার এবং দৈনন্দিন প্রয়োজন মেটাতে ব্যয় করা হবে।',
+          },
+          {
+            id: 5,
+            question: '৫. সম্পূর্ণ অর্থ না দিলেও কি সহযোগিতা করা যাবে?',
+            answer:
+              'অবশ্যই। ১০০, ২০০, ৫০০ টাকা কিংবা আপনার সামর্থ্য অনুযায়ী যেকোনো পরিমাণ অনুদান আমাদের জন্য মূল্যবান। ছোট ছোট সহযোগিতাও একসঙ্গে বড় সহায়তা হয়ে উঠতে পারে।',
+          },
+          {
+            id: 6,
+            question: '৬. আপনাদের আবেদন কতটা বিশ্বাসযোগ্য?',
+            answer:
+              'আমরা আমাদের শিক্ষাগত যোগ্যতার সনদ, পারিবারিক পরিস্থিতি এবং প্রয়োজনীয় ব্যয়ের হিসাব ব্যক্তিগতভাবে যাচাইয়ের জন্য দিতে প্রস্তুত।',
+          },
+          {
+            id: 7,
+            question: '৭. অনুদানের অর্থ কি অন্য কোনো কাজে ব্যয় হবে?',
+            answer:
+              'না। অনুদান আমাদের আবেদনে উল্লেখিত পড়াশোনা, চাকরির প্রস্তুতি এবং পারিবারিক প্রয়োজনেই ব্যয় করার পরিকল্পনা রয়েছে। অর্থের ব্যবহার সম্পর্কে স্বচ্ছতা বজায় রাখব।',
+          },
+          {
+            id: 8,
+            question: '৮. আপনাদের পরিচয় ও ছবি প্রকাশ করা হবে কি?',
+            answer:
+              'না। ব্যক্তিগত ও পারিবারিক গোপনীয়তার স্বার্থে আমাদের নাম, ছবি ও ব্যক্তিগত তথ্য প্রকাশ না করার অনুরোধ রয়েছে। যাচাইয়ের প্রয়োজনে প্রয়োজনীয় তথ্য ব্যক্তিগতভাবে সরবরাহ করা হবে।',
+          },
+          {
+            id: 9,
+            question: '৯. অনুদান দিতে না পারলেও কি সাহায্য করা সম্ভব?',
+            answer:
+              'অবশ্যই। আমাদের জন্য দোয়া করতে পারেন এবং বিশ্বস্ত ব্যক্তিদের কাছে আবেদনটি শেয়ার করতে পারেন। আপনার একটি শেয়ারও হয়তো এমন কারও কাছে আমাদের পৌঁছে দিতে পারে, যিনি সহযোগিতা করতে আগ্রহী।',
+          },
+          {
+            id: 10,
+            question: '১০. আপনাদের ভবিষ্যৎ পরিকল্পনা কী?',
+            answer:
+              'আমাদের লক্ষ্য সরকারি চাকরি অর্জন করে স্বাবলম্বী হওয়া, বাবা-মায়ের দায়িত্ব নেওয়া এবং নিজেদের পরিশ্রমে একটি নিরাপদ ভবিষ্যৎ গড়ে তোলা। ভবিষ্যতে সামর্থ্যবান হলে আমরাও অন্যের কঠিন সময়ে পাশে দাঁড়াতে চাই।',
+          },
+        ];
+
+        var BANGLA_DIGITS = ['০', '১', '২', '৩', '৪', '৫', '৬', '৭', '৮', '৯'];
+        function toBanglaDigits(input) {
+          return String(input).replace(/\d/g, function (d) {
+            return BANGLA_DIGITS[Number(d)] || d;
+          });
+        }
+
+        // Resilient Image Loader (handles both Vite build ./assets/... and raw GitHub Pages ./public/assets/...)
+        function wireImageFallback(imgId, fallbackId) {
+          var img = document.getElementById(imgId);
+          if (!img) return;
+          img.addEventListener('error', function () {
+            var altSrc = img.getAttribute('data-alt-src');
+            if (altSrc && img.getAttribute('data-tried-alt') !== '1') {
+              img.setAttribute('data-tried-alt', '1');
+              img.src = altSrc;
+              return;
+            }
+            img.classList.add('hidden');
+            if (fallbackId) {
+              var fb = document.getElementById(fallbackId);
+              if (fb) fb.classList.remove('hidden');
+            }
+          });
+        }
+
+        wireImageFallback('hero-img', 'hero-fallback');
+        wireImageFallback('desk-img', 'desk-fallback');
+        wireImageFallback('campus-img', null);
+
+        // Apply Progress & Payment Settings
+        var pct = Math.min(100, Math.max(0, Number(CAMPAIGN_SETTINGS.progressPercent) || 0));
+        document.getElementById('progress-status-note').textContent = CAMPAIGN_SETTINGS.statusNote;
+        document.getElementById('progress-percent-text').textContent = toBanglaDigits(pct) + '%';
+        document.getElementById('progress-bar-role').setAttribute('aria-valuenow', String(pct));
+        document.getElementById('progress-fill').style.transform =
+          'scaleX(' + Math.max(0.015, pct / 100) + ')';
+
+        document.getElementById('bkash-number-text').textContent = CAMPAIGN_SETTINGS.bkashNumber;
+        document.getElementById('nagad-number-text').textContent = CAMPAIGN_SETTINGS.nagadNumber;
+        document.getElementById('bkash-label-text').textContent = CAMPAIGN_SETTINGS.bkashLabel;
+        document.getElementById('nagad-label-text').textContent = CAMPAIGN_SETTINGS.nagadLabel;
+
+        // Share Link Handlers
+        var shareButtons = document.querySelectorAll('[data-share-link]');
+        shareButtons.forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            var url = window.location.href;
+            if (navigator.share) {
+              navigator
+                .share({
+                  title: 'আমাদের স্বপ্ন পূরণে একটু সহযোগিতা চাই',
+                  text: 'একটু সহযোগিতা হয়তো দুটি মানুষের দীর্ঘদিনের স্বপ্নকে বাঁচিয়ে রাখতে পারে।',
+                  url: url,
+                })
+                .catch(function () {});
+              return;
+            }
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+              navigator.clipboard.writeText(url).then(function () {
+                var label = btn.querySelector('[data-share-label]');
+                if (!label) return;
+                var prev = label.textContent;
+                label.textContent = 'লিংক কপি হয়েছে';
+                setTimeout(function () {
+                  label.textContent = prev;
+                }, 2200);
+              });
+            }
+          });
+        });
+
+        // FAQ Accordion
+        var openFaqId = 1;
+        var faqListEl = document.getElementById('faq-list');
+
+        function renderFaqs() {
+          faqListEl.innerHTML = '';
+          FAQ_ITEMS.forEach(function (item) {
+            var isOpen = openFaqId === item.id;
+            var wrapper = document.createElement('div');
+            wrapper.className = 'faq-item';
+
+            var btn = document.createElement('button');
+            btn.type = 'button';
+            btn.className = 'faq-trigger';
+            btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+
+            var qSpan = document.createElement('span');
+            qSpan.className = 'faq-question';
+            qSpan.textContent = item.question;
+
+            var iconBox = document.createElement('span');
+            iconBox.className = 'faq-icon-box';
+            iconBox.setAttribute('aria-hidden', 'true');
+            iconBox.innerHTML = isOpen
+              ? '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/></svg>'
+              : '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5v14"/></svg>';
+
+            btn.appendChild(qSpan);
+            btn.appendChild(iconBox);
+            btn.addEventListener('click', function () {
+              openFaqId = openFaqId === item.id ? null : item.id;
+              renderFaqs();
+            });
+
+            wrapper.appendChild(btn);
+
+            if (isOpen) {
+              var ans = document.createElement('div');
+              ans.className = 'faq-answer';
+              ans.textContent = item.answer;
+              wrapper.appendChild(ans);
+            }
+
+            faqListEl.appendChild(wrapper);
+          });
+        }
+        renderFaqs();
+
+        // Donation Modal Logic
+        var modal = document.getElementById('donation-modal');
+        var modalCloseBtn = document.getElementById('donation-modal-close');
+
+        function openModal() {
+          modal.classList.remove('hidden');
+          document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+          modal.classList.add('hidden');
+          document.body.style.overflow = '';
+        }
+
+        document.querySelectorAll('[data-open-donation]').forEach(function (btn) {
+          btn.addEventListener('click', openModal);
+        });
+
+        modalCloseBtn.addEventListener('click', closeModal);
+        document
+          .getElementById('donation-done-btn')
+          .addEventListener('click', closeModal);
+
+        modal.addEventListener('click', function (e) {
+          if (e.target === modal) closeModal();
+        });
+
+        document.addEventListener('keydown', function (e) {
+          if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+            closeModal();
+          }
+        });
+
+        function wireCopyBtn(btnId, getText, defaultLabel) {
+          var btn = document.getElementById(btnId);
+          btn.addEventListener('click', function () {
+            var val = getText();
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+              navigator.clipboard.writeText(val).then(function () {
+                btn.textContent = 'কপি হয়েছে';
+                setTimeout(function () {
+                  btn.textContent = defaultLabel;
+                }, 2000);
+              });
+            }
+          });
+        }
+
+        wireCopyBtn(
+          'copy-bkash-btn',
+          function () {
+            return CAMPAIGN_SETTINGS.bkashNumber;
+          },
+          'কপি',
+        );
+        wireCopyBtn(
+          'copy-nagad-btn',
+          function () {
+            return CAMPAIGN_SETTINGS.nagadNumber;
+          },
+          'কপি',
+        );
+      })();
+    </script>
+  </body>
+</html>
